@@ -1,0 +1,374 @@
+@media (max-width: 768px) {
+    /* Default css */
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 50px 15px
+    }
+
+    /* Common CSS */
+    .headline-share h1 {
+        font-size: 30px;
+    }
+    .headline-share p {
+        padding:0 20px
+    }
+
+    /* header */
+    .header-inner {
+        width: 100%;
+    }
+    .logo {
+        float:right;
+        margin-right:20px
+    }
+    .gnb {
+        float:none;
+        background-color: #fff;
+        position:fixed;
+        height: 100vh;
+        width: 250px;
+        top:0;
+        left:-270px;
+        box-shadow : 3px 0 3px rgba(0, 0, 0, 0.1);
+        padding-top:70px;
+        padding-left:15px;
+        transition:0.5s
+    }
+    .gnb.active {
+        left:0
+    }
+    .gnb a {
+        display:block
+    }
+
+    /* Trigger */
+    .trigger {
+        width: 30px;
+        height: 30px;
+        position:absolute;
+        top:25px;
+        left:20px;
+        cursor:pointer;
+        font-size: 28px;
+        text-align:center;
+    }
+    .trigger:before {
+        content: '\e91c';
+        font-family: xeicon;
+    }
+    .trigger.active:before {
+        content: '\e9af';
+        
+    }
+
+    /* ##################################Section : welcome############################## */
+
+    .welcome {
+        background-color : #f9f9f9;
+    }
+    .slideshow {
+        display:none;
+    }
+    .welcome-heading {
+        width: 95%;
+        left:50%;
+        transform: translate(-50%, -50%)
+    }
+    .welcome-heading h1 {
+        font-size: 37px;
+    }
+    .welcome-heading span {
+        font-size: 18px;
+    }
+    .welcome-heading p {
+        padding:0 30px;
+        font-size: 15px;
+    }
+
+    /* Mouse Wheele */
+    .mouse {
+        bottom:10%;
+        left:50%;
+        transform:translate(-50%);
+        border:1px solid #000
+    }
+    .wheele {
+        background-color:#000
+    }
+    
+    /* ceo-access */
+    .ceo-inner,
+    .access-inner {
+        width: 100%;
+    }
+    .ceo-content > div {
+        float : none;
+        width: 100%;
+        text-align:center
+    }
+    .ceo-right > div {
+        float:none;
+        width: 100%;
+    }
+    .ceo-left {
+        padding-right:0
+    }
+    .ceo-left h3 {
+        font-size: 18px;
+    }
+    .access-content > div {
+        float:none;
+        width: 100%;
+        text-align:center;
+    }
+    .access-left {
+        padding-right:0;
+        padding-top:20px
+    }
+    .access-left h2 {
+        font-size: 28px;
+    }
+    .btn-download {
+        margin-bottom:50px
+    }
+    .btn-download img {
+        /* height: 50px; */
+        width: 49%;
+    }
+    .access-right img {
+        width: 100%;
+    }
+
+    /* ###################section : banner################ */
+
+    .banner {
+        padding-top:30px
+    }
+    .banner-inner {
+        width: 100%;
+    }
+    .banner-content > div {
+        float :none;
+        width: 100%;
+    }
+    .tab-btn {
+        text-align:center;
+        margin-bottom:20px
+    }
+    .tab-btn label {
+        width: 27%;
+    }
+    .tab-btn label em {
+        width: 100px;
+        height: 100px;
+        padding-top:15px;
+    }
+    .tab {
+        padding:20px;
+        text-align:center
+    }
+    .tab h2 {
+        font-size: 22px;
+    }
+
+    /* #################section : feature############## */
+
+    .feature-inner {
+        width: 100%;
+    }
+    .feature-mockup img {
+        width: 100%;
+    }
+    .feature-content {
+        margin:50px 0
+    }
+    .feature-content > div {
+        float:none;
+        width: 100%;
+    }
+    .feature-about {
+        padding: 0 10px;
+        padding-top:80px
+    }
+    .feature-about h2 {
+        font-size: 22px;
+        margin-top:20px
+    }
+
+    /* Change Order with Flex */
+    .feature-content.flex-order {
+        display:flex;
+        flex-direction: column;
+    }
+    .feature-content.flex-order > div:first-child {
+        order:1;
+    }
+
+    /* section:vision */
+
+    .vision {
+        padding-top:0
+    }
+    .vision-content > div {
+        float:none;
+        width: 100%;
+        height: auto;
+    }
+    .vision-item-headline {
+        width: 80%;
+    }
+    .vision-item-desc {
+        padding:20px 0;
+    }
+
+    /* section : faq */
+
+    .faq {
+        padding:20px 10px
+    }
+    .faq-inner {
+        width: 100%;
+    }
+    .faq-content > div {
+        float:none;
+        width: 100%;
+        padding:0;
+        min-height: 600px;
+    }
+
+    /* section : review */
+
+    .review {
+        padding:100px 0;
+    }
+    .review-inner {
+        width: 100%;
+    }
+    .review-content {
+        width: 100%;
+    }
+    .review-slider div p {
+        padding:0 10px
+    }
+    h1.slogan {
+        font-size: 22px;
+    }
+    .review-slider .slick-arrow {
+        display:none !important
+    }
+
+    /* section : focus */
+
+    .focus-inner {
+        width: 100%;
+    }
+    .focus-item {
+        display:block;
+        width: 100%;
+        margin-bottom:40px;
+        padding:0 20px
+    }
+
+    /* section : guide */
+
+    .guide {
+        padding-top: 50px 0;
+        padding-bottom: 100px
+    }
+    .guide-inner {
+        width: 100%;
+    }
+    .guide-content > div {
+        float : none;
+        width: 100%;
+        text-align:center
+    }
+    .guide-slider {
+        margin-bottom:80px
+    }
+    .guide-video h1{
+        font-size: 24px;
+    }
+    .video-headline {
+        font-size: 20px;
+    }
+    .video-headline img {
+        height: 20px;
+    }
+    .video-frame {
+        width: 100%;
+    }
+
+    /* section news */
+
+    .news {
+        padding-top:80px;
+        padding-bottom:80px;
+    }
+    .news-inner {
+        width: 100%;
+    }
+    .news-content {
+        width: 100%;
+    }
+    .news-content > div {
+        float:none;
+        width: 100%;
+    }
+    .news-left {
+        margin-bottom: 15px 
+    }
+    .news-big {
+        width: 100%;
+        height: 450px;
+    }
+    .news-thum {
+        width: 100%;
+        margin-bottom:20px
+    }
+    .news-photo {
+        display:block;
+    }
+    .news-photo img {
+        width: 100%;
+    }
+    .news-thum .date {
+        margin-top:0;
+        float:left
+    }
+    .news-items {
+        margin-bottom:20px
+    }
+/* ########################footer################### */
+    footer {
+        padding: 40px 15px;
+        text-align: center
+    }
+    .footer-inner {
+        width: 100%;
+    }
+    .footer-content > div {
+        float:none;
+        width: 100%;
+    }
+    .policy-sns > div {
+        float: none;
+    }
+    .policy {
+        margin:10px 0
+    }
+    /* Video Modal */
+    .video-content {
+        width: 90%;
+    }
+    .video-content h2 {
+        text-align:center;
+        font-size: 20px;
+    }
+    .video-content iframe {
+        width: 100%;
+        height: 280px;
+    }
+}
