@@ -228,8 +228,8 @@ header.active {
     width: 32px;
     height: 45px;
     border-radius: 30px;
-    bottom:260px;
-    left:1250px
+    bottom:10%;
+    left:90%
 }
 .wheele {
     position:absolute;
