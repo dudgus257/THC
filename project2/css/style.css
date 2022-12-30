@@ -157,6 +157,7 @@ header.active {
 } */
 .gnb{
     float:right;
+    padding-top:10px
 }
 .gnb a {
     margin:10px; /* a태그 위아래는 안 먹음 */
