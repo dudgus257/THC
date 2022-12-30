@@ -146,15 +146,15 @@ header.active {
     width: 1300px;
     margin:auto;
     overflow:hidden;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 .logo {
     float:left;
 }
-.logo img {
+/* .logo img {
     margin-top:-7px;
-}
+} */
 .gnb{
     float:right;
 }
